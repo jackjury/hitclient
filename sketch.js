@@ -2,7 +2,7 @@ let width = 500;
 let height = 72;
 let count;
 let digits = 7;
-let counturl = "http://localhost:5000/count";
+let counturl = "https://hitcounterserver.herokuapp.com/count";
 
 function preload() {
   count = loadJSON(counturl);
